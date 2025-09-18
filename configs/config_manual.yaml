@@ -1,0 +1,67 @@
+# Stereo camera parameters (0 values; replace with actual calibration data)
+left:
+  mtx:
+    - [0.0 0.0 0.0]
+    - [0.0, 0.0, 0.0]
+    - [0.0, 0.0, 0.0]
+  dist:
+    - [0.0, 0.0, 0.0,
+       0.0, 0.0, 0.0,
+       0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+  image_size: [640, 480]
+
+right:
+  mtx:
+    - [0.0 0.0 0.0]
+    - [0.0, 0.0, 0.0]
+    - [0.0, 0.0, 0.0]
+  dist:
+    - [0.0, 0.0, 0.0,
+       0.0, 0.0, 0.0,
+       0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+rectify:
+  R1:
+    - [0.0, 0.0, 0.0]
+    - [0.0, 0.0, 0.0]
+    - [0.0, 0.0, 0.0]
+  R2:
+    - [0.0, 0.0, 0.0]
+    - [0.0, 0.0, 0.0]
+    - [0.0, 0.0, 0.0]
+  P1:
+    - [0.0, 0.0, 0.0, 0.0]
+    - [0.0, 0.0, 0.0, 0.0]
+    - [0.0, 0.0, 0.0, 0.0]
+  P2:
+    - [0.0, 0.0, 0.0, 0.0]
+    - [0.0, 0.0, 0.0, 0.0]
+    - [0.0, 0.0, 0.0, 0.0]
+  Q:
+    - [0.0, 0.0, 0.0, 0.0]
+    - [0.0, 0.0, 0.0, 0.0]
+    - [0.0, 0.0, 0.0, 0.0]
+    - [0.0, 0.0, 0.0, 0.0]
+
+# If calibration is not perfect, you may need to adjust these parameters
+calib_adjustment:
+  depth_scale: [1.0]  # depth scaling
+  calib_scale: 1.0 # fx*b/z scaling
+  calib_bias: 0.0 # disparity bias
+
+# Tracker parameters
+tracker:
+  is_rectified: false # set to true if input images are rectified # if false, input images will be rectified using the above parameters
+  max_age: 30
+  min_hits: 3
+  iou_thr1: 0.3
+  iou_thr2: 0.15
+  max_depth: 2.0
+  oc_delta_t: 2
+  inertia: 0.2
+  use_dir_gate: true
+  use_speed_penalty: true
+  use_stereo_gate: true
+  dir_gate_deg: 40.0
+  speed_gate_px: 80.0
+  disparity_consistency_thr: 40
