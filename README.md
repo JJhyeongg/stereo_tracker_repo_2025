@@ -2,14 +2,14 @@
 Real-Time Robust 2.5D Stereo Multi-Object Tracking with Lightweight Stereo Matching Algorithm
 
 ## 📄 Paper
-
 This repository contains the **official implementation** of the paper:
 
-```bash
-Real-Time Robust 2.5D Stereo Multi-Object Tracking with Lightweight Stereo Matching Algorithm
-J. Lee, J. Shin, E. Park, and D. Kim
-Sensors, 25(21), 6773, 2025
-DOI: https://doi.org/10.3390/s25216773
+**Real-Time Robust 2.5D Stereo Multi-Object Tracking with Lightweight Stereo Matching Algorithm**  
+J. Lee, J. Shin, E. Park, and D. Kim  
+*Sensors*, 25(21), 6773, 2025  
+
+[![DOI](https://img.shields.io/badge/DOI-10.3390%2Fs25216773-blue)](https://doi.org/10.3390/s25216773)
+
 
 ## Installation & Setup
 
