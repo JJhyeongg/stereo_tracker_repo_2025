@@ -4,12 +4,12 @@ Real-Time Robust 2.5D Stereo Multi-Object Tracking with Lightweight Stereo Match
 ## Paper
 
 This repository contains the official implementation of the paper:
-
+```bash
 **Real-Time Robust 2.5D Stereo Multi-Object Tracking with Lightweight Stereo Matching Algorithm**  
 Sensors, 2025
 
 paper: https://doi.org/10.3390/s25216773
-
+```
 ## Installation & Setup
 
 ### 1. Create Conda Environment
