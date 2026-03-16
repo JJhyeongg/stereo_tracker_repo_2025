@@ -1,5 +1,4 @@
 # Stereo Tracker Repository
-Real-Time Robust 2.5D Stereo Multi-Object Tracking with Lightweight Stereo Matching Algorithm
 
 ## 📄 Paper
 This repository contains the **official implementation** of the paper:
